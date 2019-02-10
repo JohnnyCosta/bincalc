@@ -2,14 +2,11 @@ package org.bin.core;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
-import org.apache.commons.collections.ListUtils;
 import org.bin.exception.CalculationException;
 import org.bin.exception.ListContainNullException;
 import org.bin.exception.PreValidationException;
 import org.bin.util.BinUtil;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 

@@ -20,7 +20,7 @@ public class App {
       var iterations = IntegerValidator
         .getInstance()
         .validate(args[1]);
-      if (!mayBinSequenceValid.isPresent()) {
+      if (mayBinSequenceValid.isEmpty()) {
         log.error("Invalid argument: <ARRAY>");
         printHelp();
       } else if (mayBinSequenceValid.get().size()<2) {

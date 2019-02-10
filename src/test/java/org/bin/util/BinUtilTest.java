@@ -47,7 +47,7 @@ public class BinUtilTest {
   }
 
   @Test
-  public void whenConvertToStringNoElement_shouldReturnEmptylist() {
+  public void whenConvertToStringNoElement_shouldReturnEmptyList() {
     assertThat(BinUtil.convertToString(new ArrayList<>()), not(isPresent()));
   }
 
